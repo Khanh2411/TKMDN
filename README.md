@@ -95,4 +95,15 @@ IP Routing
 ![](image/Router_IPROUTING.png)  
   
 ### Cấu hình Firewall
+Cấu hình Fortinet bằng CLI  
+Cấu hình các port 1-router, port2-switch  
+
+Policy cho phép mạng nội bộ ra Internet  
+
+Routing mạng nội bộ  
+
+Chia Vlan thanh cong va cac may ping ra duoc intenet  
+
+
+### File Store
 
