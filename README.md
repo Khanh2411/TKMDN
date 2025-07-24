@@ -65,3 +65,29 @@ Các cổng nối với End-Device sẽ là mode access và access vào t
 ![](image/modeaccess_5.png)  
 Cấu hình trên Server DHCP  
 *Không tạo scope cho VLAN 2  
+Nhập tên scope  
+![](image/DHCP_Server_1.png)  
+Nhập dãy IP sẽ cấp phát  
+![](image/DHCP_Server_2.png)  
+Nhập dãy IP không cấp phát, ngoại trừ  
+![](image/DHCP_Server_3.png)  
+Nhập thời gian được sử dụng IP  
+![](image/DHCP_Server_4.png)  
+Nhập vào Gateway  
+![](image/DHCP_Server_5.png)  
+Nhập dns
+![](image/DHCP_Server_6.png)  
+Chọn Yes, sau đó bấm Next để kích hoạt scope  
+![](image/DHCP_Server_7.png)  
+Làm với các scope tương tự
+![](image/DHCP_Server_8.png)  
+
+### Cấu hình Routing
+E0/0 sử dụng IP DHCP do ISP cấp  
+E0/1 nối với mạng nội bộ  
+NAT theo port  
+ACL  
+IP Routing  
+
+### Cấu hình Firewall
+
