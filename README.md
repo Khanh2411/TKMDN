@@ -97,13 +97,18 @@ IP Routing
 ### Cấu hình Firewall
 Cấu hình Fortinet bằng CLI  
 Cấu hình các port 1-router, port2-switch  
-
+![](image/FW_1.png)  
 Policy cho phép mạng nội bộ ra Internet  
-
+![](image/FW_2.png)  
 Routing mạng nội bộ  
-
+![](image/FW_3.png)  
 Chia Vlan thanh cong va cac may ping ra duoc intenet  
-
-
+![](image/FW_4.png)  
+![](image/FW_5.png)  
+  
 ### File Store
+Tạo ổ đĩa trên windata  
+Chuyển sang server sẽ được nhận SANS  
+Vào iSCSI Initiator nhập IP của Server chia sẻ  
+Format ổ đĩa và sử dụng  
 
