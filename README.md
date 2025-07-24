@@ -79,9 +79,9 @@ Nhập dns
 ![](image/DHCP_Server_6.png)  
 Chọn Yes, sau đó bấm Next để kích hoạt scope  
 ![](image/DHCP_Server_7.png)  
-Làm với các scope tương tự
+Làm với các scope tương tự  
 ![](image/DHCP_Server_8.png)  
-
+  
 ### Cấu hình Routing
 E0/0 sử dụng IP DHCP do ISP cấp  
 ![](image/Router_ISP.png)  
