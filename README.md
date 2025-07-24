@@ -108,7 +108,18 @@ Chia Vlan thanh cong va cac may ping ra duoc intenet
   
 ### File Store
 Tạo ổ đĩa trên windata  
+![](image/FileStorage_1.png)  
 Chuyển sang server sẽ được nhận SANS  
+![](image/FileStorage_2.png)  
 Vào iSCSI Initiator nhập IP của Server chia sẻ  
+![](image/FileStorage_3.png)  
 Format ổ đĩa và sử dụng  
-
+![](image/FileStorage_4.png)  
+  
+### Backup dữ liệu
+Sử dụng dịch vụ Windows Server Backup  
+Chọn kiểu tiến hành  
+Thêm thư mục cần backup  
+Lưu ý nên lưu bản backup trên một ổ đĩa mạng hay một nơi nào đó không thuộc SRV-DC vì dữ liệu và bản backup nếu nằm cùng một máy và nếu máy đó bị hỏng thì việc backup trở nên vô nghĩa.  
+Ở đây ta đã được chia sẻ một ổ đĩa iSCSI từ SV_store nên đây sẽ là nơi thích hợp để lưu trữ bản backup.  
+Backup thành công  
