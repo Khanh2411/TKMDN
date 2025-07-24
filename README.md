@@ -34,15 +34,20 @@ Switch Layer 3
 Vai trò quan trọng trong việc điều tiết hệ thống mạng nội bộ.  
 Sử dụng VTP (VLAN Trunking Protocol cho phép các VLAN được Trunk qua các Switch Layer 2 nhờ vào các port tương ứng)  
 ![Config SWL3](image/configSWL3.png)  
+  
 Cổng E0/0 nối với Firewall  
 ![e0/0](image/e00_to_FW.png)  
+  
 Các cổng từ E0/1-3 và E1/0-1 cấu hình trunking các VLAN sang Switch Layer 2  
 ![Trunk config](image/SWL2_1.png)  
 ![Trunk config](image/SWL2_2.png)  
+  
 Cấu hình các VLAN (các VLAN sẽ được cấp DHCP nhờ vào địa chỉ 192.168.1.2 – địa chỉ của DHCP Server)  
 ![Vlans config](image/VLANs_config.png)  
+  
 IP Routing  
 ![IP routing](image/IP_Routing.png)  
+  
 Switch Layer 2  
 Các Switch Layer 2 được tiến hành cấu hình tương tự nhau để gán các port access vào từng VLAN tương ứng.  
 Nhận các VLAN từ Switch Layer 3 dựa vào VTP  
@@ -51,18 +56,21 @@ Nhận các VLAN từ Switch Layer 3 dựa vào VTP
 ![](image/SWL2_5.png)  
 ![](image/SWL2_6.png)  
 ![](image/SWL2_7.png)  
+  
 Cổng nối với Switch Layer 3 sẽ là mode trunking để nhiều VLAN có thể đi qua  
 ![](image/SWL2_8.png)  
 ![](image/SWL2_9.png)  
 ![](image/SWL2_10.png)  
 ![](image/SWL2_11.png)  
 ![](image/SWL2_12.png)  
+  
 Các cổng nối với End-Device sẽ là mode access và access vào từng VLAN tương ứng.  
 ![](image/modeaccess_1.png)  
 ![](image/modeaccess_2.png)  
 ![](image/modeaccess_3.png)  
 ![](image/modeaccess_4.png)  
 ![](image/modeaccess_5.png)  
+  
 Cấu hình trên Server DHCP  
 *Không tạo scope cho VLAN 2  
 Nhập tên scope  
@@ -85,23 +93,31 @@ Làm với các scope tương tự
 ### Cấu hình Routing
 E0/0 sử dụng IP DHCP do ISP cấp  
 ![](image/Router_ISP.png)  
+  
 E0/1 nối với mạng nội bộ  
 ![](image/Router_noibo.png)  
+  
 NAT theo port  
 ![](image/Router_NATPORT.png)  
+  
 ACL  
 ![](image/Router_ACL.png)  
+  
 IP Routing  
 ![](image/Router_IPROUTING.png)  
-  
+
+    
 ### Cấu hình Firewall
 Cấu hình Fortinet bằng CLI  
 Cấu hình các port 1-router, port2-switch  
 ![](image/FW_1.png)  
+  
 Policy cho phép mạng nội bộ ra Internet  
 ![](image/FW_2.png)  
+  
 Routing mạng nội bộ  
 ![](image/FW_3.png)  
+  
 Chia Vlan thanh cong va cac may ping ra duoc intenet  
 ![](image/FW_4.png)  
 ![](image/FW_5.png)  
@@ -109,22 +125,29 @@ Chia Vlan thanh cong va cac may ping ra duoc intenet
 ### File Store
 Tạo ổ đĩa trên windata  
 ![](image/FileStorage_1.png)  
+  
 Chuyển sang server sẽ được nhận SANS  
 ![](image/FileStorage_2.png)  
+  
 Vào iSCSI Initiator nhập IP của Server chia sẻ  
 ![](image/FileStorage_3.png)  
+  
 Format ổ đĩa và sử dụng  
 ![](image/FileStorage_4.png)  
+  
   
 ### Backup dữ liệu
 Sử dụng dịch vụ Windows Server Backup  
 Chọn kiểu tiến hành  
 ![](image/Backup_1.png)  
+  
 Thêm thư mục cần backup  
 ![](image/Backup_2.png)  
+  
 Lưu ý nên lưu bản backup trên một ổ đĩa mạng hay một nơi nào đó không thuộc SRV-DC vì dữ liệu và bản backup nếu nằm cùng một máy và nếu máy đó bị hỏng thì việc backup trở nên vô nghĩa.  
 Ở đây ta đã được chia sẻ một ổ đĩa iSCSI từ SV_store nên đây sẽ là nơi thích hợp để lưu trữ bản backup.  
 ![](image/Backup_3.png)  
+  
 Backup thành công  
 ![](image/Backup_4.png)  
 
