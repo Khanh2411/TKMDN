@@ -9,9 +9,9 @@ Công ty có hợp đồng triển khai mạng cho Viện Giáo Dục Quốc T�
 
 ## Sơ đồ hệ thống
 ### Sơ đồ logic
-
+![Sơ đồ logic](image/Sodologic.png)
 ### Sơ đồ vật lý
-
+![Sơ đồ Vật Lý](image/SodoVatly.png)
 ## Bảng phân hoạch IP
 ### 🗂️ Thông tin mạng theo tầng và phòng
 
@@ -26,4 +26,8 @@ Công ty có hợp đồng triển khai mạng cho Viện Giáo Dục Quốc T�
 | 3     | Lab         | 20           | 192.168.5.0    | 255.255.255.192    | 192.168.5.1    | 6    |
   
 ## Cấu hình các dịch vụ
+### Cấu hình DHCP
+Switch Layer 3
+Vai trò quan trọng trong việc điều tiết hệ thống mạng nội bộ.
+Sử dụng VTP (VLAN Trunking Protocol cho phép các VLAN được Trunk qua các Switch Layer 2 nhờ vào các port tương ứng)
 
