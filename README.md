@@ -75,7 +75,7 @@ Nhập thời gian được sử dụng IP
 ![](image/DHCP_Server_4.png)  
 Nhập vào Gateway  
 ![](image/DHCP_Server_5.png)  
-Nhập dns
+Nhập DNS  
 ![](image/DHCP_Server_6.png)  
 Chọn Yes, sau đó bấm Next để kích hoạt scope  
 ![](image/DHCP_Server_7.png)  
