@@ -84,10 +84,15 @@ Làm với các scope tương tự
 
 ### Cấu hình Routing
 E0/0 sử dụng IP DHCP do ISP cấp  
+![](image/Router_ISP.png)  
 E0/1 nối với mạng nội bộ  
+![](image/Router_noibo.png)  
 NAT theo port  
+![](image/Router_NATPORT.png)  
 ACL  
+![](image/Router_ACL.png)  
 IP Routing  
-
+![](image/Router_IPROUTING.png)  
+  
 ### Cấu hình Firewall
 
