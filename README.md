@@ -37,5 +37,14 @@ Sử dụng VTP (VLAN Trunking Protocol cho phép các VLAN được Trunk q
 Cổng E0/0 nối với Firewall  
 ![e0/0](image/e00_to_FW.png)  
 Các cổng từ E0/1-3 và E1/0-1 cấu hình trunking các VLAN sang Switch Layer 2  
+![Trunk config](image/SWL2_1.png)  
+![Trunk config](image/SWL2_2.png)  
+Cấu hình các VLAN (các VLAN sẽ được cấp DHCP nhờ vào địa chỉ 192.168.1.2 – địa chỉ của DHCP Server)  
+![Vlans config](image/VLANs_config.png)  
+IP Routing  
+![IP routing](image/IP_Routing.png)  
+Switch Layer 2
+Các Switch Layer 2 được tiến hành cấu hình tương tự nhau để gán các port access vào từng VLAN tương ứng.
+Nhận các VLAN từ Switch Layer 3 dựa vào VTP
 
 
