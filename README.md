@@ -46,5 +46,11 @@ IP Routing
 Switch Layer 2
 Các Switch Layer 2 được tiến hành cấu hình tương tự nhau để gán các port access vào từng VLAN tương ứng.
 Nhận các VLAN từ Switch Layer 3 dựa vào VTP
+![Trunk config](image/SWL2_3.png)  
+![Trunk config](image/SWL2_4.png)  
+![Trunk config](image/SWL2_5.png)  
+![Trunk config](image/SWL2_6.png)  
+![Trunk config](image/SWL2_7.png)  
+Cổng nối với Switch Layer 3 sẽ là mode trunking để nhiều VLAN có thể đi qua  
 
 
