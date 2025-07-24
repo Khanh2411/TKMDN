@@ -23,11 +23,18 @@ Công ty có hợp đồng triển khai mạng cho Viện Giáo Dục Quốc T�
 |       | Quản lí     | 5            | 192.168.4.0    | 255.255.255.248    | 192.168.4.1    | 5    |
 | 1     | Lab         | 20           | 192.168.5.0    | 255.255.255.192    | 192.168.5.1    | 6    |
 | 2     | Lab         | 20           | 192.168.5.0    | 255.255.255.192    | 192.168.5.1    | 6    |
-| 3     | Lab         | 20           | 192.168.5.0    | 255.255.255.192    | 192.168.5.1    | 6    |
+| 3     | Lab         | 20           | 192.168.5.0    | 255.255.255.192    | 192.168.5.1    | 6    |  
+Mạng nối giữa Switch và Firewall: 192.168.200.0/24  
+Mạng nối giữa Firewall và Router: 192.168.190.0/24  
   
 ## Cấu hình các dịch vụ
 ### Cấu hình DHCP
-Switch Layer 3
-Vai trò quan trọng trong việc điều tiết hệ thống mạng nội bộ.
-Sử dụng VTP (VLAN Trunking Protocol cho phép các VLAN được Trunk qua các Switch Layer 2 nhờ vào các port tương ứng)
+Switch Layer 3  
+Vai trò quan trọng trong việc điều tiết hệ thống mạng nội bộ.  
+Sử dụng VTP (VLAN Trunking Protocol cho phép các VLAN được Trunk qua các Switch Layer 2 nhờ vào các port tương ứng)  
+![Config SWL3](image/configSWL3.png)  
+Cổng E0/0 nối với Firewall  
+![e0/0](image/e00_to_FW.png)  
+Các cổng từ E0/1-3 và E1/0-1 cấu hình trunking các VLAN sang Switch Layer 2  
+
 
