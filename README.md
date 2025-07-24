@@ -52,5 +52,16 @@ Nhận các VLAN từ Switch Layer 3 dựa vào VTP
 ![](image/SWL2_6.png)  
 ![](image/SWL2_7.png)  
 Cổng nối với Switch Layer 3 sẽ là mode trunking để nhiều VLAN có thể đi qua  
-
-
+![](image/SWL2_8.png)  
+![](image/SWL2_9.png)  
+![](image/SWL2_10.png)  
+![](image/SWL2_11.png)  
+![](image/SWL2_12.png)  
+Các cổng nối với End-Device sẽ là mode access và access vào từng VLAN tương ứng.  
+![](image/modeaccess_1.png)  
+![](image/modeaccess_2.png)  
+![](image/modeaccess_3.png)  
+![](image/modeaccess_4.png)  
+![](image/modeaccess_5.png)  
+Cấu hình trên Server DHCP  
+*Không tạo scope cho VLAN 2  
