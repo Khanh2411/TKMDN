@@ -43,9 +43,9 @@ Cấu hình các VLAN (các VLAN sẽ được cấp DHCP nhờ vào đi
 ![Vlans config](image/VLANs_config.png)  
 IP Routing  
 ![IP routing](image/IP_Routing.png)  
-Switch Layer 2
-Các Switch Layer 2 được tiến hành cấu hình tương tự nhau để gán các port access vào từng VLAN tương ứng.
-Nhận các VLAN từ Switch Layer 3 dựa vào VTP
+Switch Layer 2  
+Các Switch Layer 2 được tiến hành cấu hình tương tự nhau để gán các port access vào từng VLAN tương ứng.  
+Nhận các VLAN từ Switch Layer 3 dựa vào VTP  
 ![Trunk config](image/SWL2_3.png)  
 ![Trunk config](image/SWL2_4.png)  
 ![Trunk config](image/SWL2_5.png)  
