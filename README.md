@@ -153,8 +153,20 @@ Backup thành công
 
 ### Cấu hình chính sách bảo mật
 Tạo chính sách bảo mật cho OU  
+![](image/Policy1.png)  
+  
 Đặt tên cho chính sách  
+![](image/Policy2.png)  
+  
 Ngăn chặn nhân viên mở Registry  
+![](image/Policy3.png)  
+  
 Ngăn chặn nhân viên mở cmd  
-Cập nhật các policy
+![](image/Policy4.png)  
+  
+Cập nhật các policy  
+![](image/Policy5.png)  
+  
 Kiểm tra trên user IT
+![](image/Policy6.png)  
+  
