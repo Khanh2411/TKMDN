@@ -151,5 +151,10 @@ Lưu ý nên lưu bản backup trên một ổ đĩa mạng hay một nơi 
 Backup thành công  
 ![](image/Backup_4.png)  
 
-### Failover Clustering
-
+### Cấu hình chính sách bảo mật
+Tạo chính sách bảo mật cho OU  
+Đặt tên cho chính sách  
+Ngăn chặn nhân viên mở Registry  
+Ngăn chặn nhân viên mở cmd  
+Cập nhật các policy
+Kiểm tra trên user IT
