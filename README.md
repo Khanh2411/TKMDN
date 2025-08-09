@@ -121,7 +121,9 @@ Routing mạng nội bộ
 Chia Vlan thanh cong va cac may ping ra duoc intenet  
 ![](image/FW_4.png)  
 ![](image/FW_5.png)  
-  
+
+### ADDS và DNS
+
 ### File Store
 Tạo ổ đĩa trên windata  
 ![](image/FileStorage_1.png)  
