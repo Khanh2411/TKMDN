@@ -167,6 +167,6 @@ Ngăn chặn nhân viên mở cmd
 Cập nhật các policy  
 ![](image/Policy5.png)  
   
-Kiểm tra trên user IT
+Kiểm tra trên user IT  
 ![](image/Policy6.png)  
   
