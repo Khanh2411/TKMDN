@@ -123,7 +123,8 @@ Chia Vlan thanh cong va cac may ping ra duoc intenet
 ![](image/FW_5.png)  
 
 ### ADDS và DNS
-
+![](image/ADDS_DNS.png)  
+  
 ### File Store
 Tạo ổ đĩa trên windata  
 ![](image/FileStorage_1.png)  
