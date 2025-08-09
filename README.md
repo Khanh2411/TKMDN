@@ -9,9 +9,9 @@ Công ty có hợp đồng triển khai mạng cho Viện Giáo Dục Quốc T�
 
 ## Sơ đồ hệ thống
 ### Sơ đồ logic
-![Sơ đồ logic](image/Sodologic.png)
+![Sơ đồ Vật Lý](image/Sodologic.png)  
 ### Sơ đồ vật lý  
-![Sơ đồ Vật Lý](image/SodoVatly.png)
+![Sơ đồ Vật Lý](image/SodoVatly.png)  
 ## Bảng phân hoạch IP
 ### 🗂️ Thông tin mạng theo tầng và phòng
 
